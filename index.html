@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 OTA Update</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    form {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f9f9f9;
+    }
+    input[type="file"] {
+      margin-bottom: 10px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      font-size: 16px;
+      color: #fff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    input[type="submit"]:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <h1>ESP32 OTA Update</h1>
+  <p>Select the firmware (.bin) file to update your ESP32 device:</p>
+  <form method="POST" action="/update" enctype="multipart/form-data">
+    <input type="file" name="update" required>
+    <br><br>
+    <input type="submit" value="Update Firmware">
+  </form>
+</body>
+</html>
 
