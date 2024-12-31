@@ -1,1 +1,11 @@
+[
+    {
+        "version": "25.0.1",
+        "url": "https://raw.githubusercontent.com/yourusername/yourrepo/main/firmware1.bin"
+    },
+    {
+        "version": "26.0.1",
+        "url": "https://raw.githubusercontent.com/yourusername/yourrepo/main/firmware2.bin"
+    }
+]
 
