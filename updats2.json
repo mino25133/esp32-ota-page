@@ -1,11 +1,12 @@
 [
   {
     "version": "1.0.1",
-    "url": "https://raw.githubusercontent.com/mino25133/esp32-ota-page/main/sketch_dec12c.ino.bin"
+    "url": "https://example.com/firmware_v1.0.1.bin"
   },
   {
     "version": "1.0.2",
-    "url": "https://raw.githubusercontent.com/mino25133/esp32-ota-page/main/sketch_nov21c.ino.bin"
-  } 
+    "url": "https://example.com/firmware_v1.0.2.bin"
+  }
 ]
+
 
